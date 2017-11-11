@@ -1,4 +1,3 @@
-
 const cardArray = ['fa-diamond', 'fa-paper-plane-o', 'fa-bolt', 'fa-cube', 'fa-anchor', 'fa-leaf', 'fa-bomb',
     'fa-bicycle', 'fa-diamond', 'fa-paper-plane-o',  'fa-bolt', 'fa-cube', 'fa-anchor', 'fa-leaf', 'fa-bomb', 'fa-bicycle'];
 
