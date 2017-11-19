@@ -167,3 +167,72 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+.score-panel .time{
+    clear: both;
+    text-align: center;
+    color:red;
+}
+
+
+/*适应手机屏幕（Iphone 6 plus: 414）*/
+@media only screen and (max-width: 450px) {
+    .deck {
+        width: 260px;
+        min-height: 280px;
+        padding:12px;
+    }
+    .deck .card {
+        width: 50px;
+        height:50px;
+    }
+    h1{
+       font-size:20px;
+    }
+    .score-panel {
+        width: 220px;
+        font-size: 14px;
+    }
+
+}
+/*适应平板屏幕(ipad:768 ipad pro：1024)*/
+@media only screen and (max-width: 1024px) and (min-width: 450px ){
+    .deck {
+        width: 400px;
+        min-height: 420px;
+        padding:20px;
+    }
+    .deck .card {
+        width: 75px;
+        height:75px;
+    }
+
+    h1{
+       font-size:24px;
+    }
+    .score-panel {
+        width: 320px;
+        font-size: 18px;
+    }
+
+}
+/*适应电脑屏幕*/
+@media only screen and (min-width: 1024px) {
+    .deck {
+        width: 660px;
+        min-height: 680px;
+       /* padding:32px;*/
+    }
+    .deck .card {
+        width: 125px;
+        height:125px;
+    }
+
+    h1{
+       font-size:36px;
+    }
+    .score-panel {
+        width: 580px;
+        font-size: 24px;
+    }
+}
